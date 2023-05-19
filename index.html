@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Minesweeper</title>
+</head>
+<body>
+  <header class="container header">
+    <h1 class="h1">RsSchool Minesweeper</h1>
+  </header>  
+  <main class="container main">
+    <div class="main__minefield">
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+      <div class="main__minefield__tile"></div>
+    </div>
+    <div class="main__info">
+      <button class="main__info__btn">Новая игра</button>
+      <div class="main__info__layer">
+        <div class="main__info__layer__size">
+          <label for="size">
+            <input type="text" id="size" placeholder="Размер поля">
+          </label>
+        </div>
+        <div class="main__info__layer__bombs">
+          <label for="bombs--quantity">
+            <input type="text" id="bombs--quantity" placeholder="Кол-во бомб">
+          </label>
+        </div>
+      </div>
+      <div class="main__info__bombs--left">
+        <div class="main__info__bombs--left__count"></div>
+        <div class="main__info__bombs--left__description">Бомб осталось</div>
+      </div>
+      <div class="main__info__click">
+        <div class="main__info__click__count"></div>
+        <p class="main__info__click__description">Кол-во кликов</p>
+      </div>
+      <div class="main__info__time">
+        <div class="main__info__time__passed"></div>
+        <p class="main__info__time__descripton"> Времени прошло</p>
+      </div>
+      <div class="main__info__sound">
+        <div class="main__info__sound__status"></div>
+        <p class="main__info__sound__description">Звук вкл.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
